@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background: #f6f7f9;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 28px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.brand {
+  font-weight: 700;
+  color: #111;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+}
+
+nav a {
+  color: #555;
+  text-decoration: none;
+}
+
+.page {
+  width: min(980px, calc(100% - 32px));
+  margin: 48px auto;
+}
+
+.intro {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 28px;
+}
+
+.intro h1 {
+  margin: 0 0 12px;
+}
+
+.intro p {
+  margin: 0;
+  line-height: 1.6;
+}
