@@ -50,3 +50,27 @@ nav a {
   margin: 0;
   line-height: 1.6;
 }
+
+.product-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 20px;
+}
+
+.product-sidebar {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.product-sidebar h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.product-sidebar label {
+  display: flex;
+  gap: 8px;
+  margin: 12px 0;
+}
